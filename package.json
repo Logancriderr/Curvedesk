@@ -1,0 +1,8 @@
+{
+  "name": "curvedesk-browser-checks",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Optional browser verification only; not required to run the Python dashboard",
+  "scripts": {"test:browser": "node tests/browser-smoke.cjs", "check:js": "node --check web/app.js"},
+  "devDependencies": {"playwright": "1.62.1"}
+}
