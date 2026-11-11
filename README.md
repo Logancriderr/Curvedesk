@@ -4,7 +4,7 @@
 
 Python 3.11+ · standard-library runtime · no API key · offline demo · browser dashboard
 
-![CurveDesk yield curve dashboard](docs/screenshots/curve-monitor.png)
+![CurveDesk yield curve dashboard](docs/Screenshots/curve-monitor.png)
 
 *CurveDesk's curve monitor, showing yield comparisons and interest-rate analytics. 
 
@@ -65,7 +65,7 @@ python -m curvedesk
 
 Inspect an example bond's price, yield, duration, and dollar sensitivity to interest-rate changes.
 
-![CurveDesk Bond lab showing valuation and risk calculations](docs/screenshots/bond-lab.png)
+![CurveDesk Bond lab showing valuation and risk calculations](docs/Screenshots/bond-lab.png)
 
 *The key-rate DV01 chart shows which parts of the yield curve contribute to the position's rate sensitivity.*
 
@@ -124,7 +124,7 @@ Do not commit personal holdings or private broker data to a public repository. T
 
 Combine position-level exposures and examine a theoretical cash-bond hedge.
 
-![CurveDesk portfolio exposures and cash-bond hedge](docs/screenshots/portfolio-risk.png)
+![CurveDesk portfolio exposures and cash-bond hedge](docs/Screenshots/portfolio-risk.png)
 
 *Matching total DV01 can leave exposure to changes in the shape of the yield curve. The chart compares key-rate risk before and after the hedge.*
 
@@ -143,6 +143,6 @@ Read [METHODOLOGY.md](docs/METHODOLOGY.md) for formulas, boundary cases and limi
 
 Apply parallel rate changes, curve-shape changes, and spread shocks to the example portfolio.
 
-![CurveDesk scenario analysis with a parallel 100 basis point increase](docs/screenshots/scenario-studio.png)
+![CurveDesk scenario analysis with a parallel 100 basis point increase](docs/Screenshots/scenario-studio.png)
 
 *The selected scenario raises continuous zero rates by 100 basis points. P&L comes from repricing the remaining cash flows; it is an instantaneous stress result, not a forecast of investment returns.*
